@@ -1,7 +1,7 @@
 # roboto-span-view
 [![API](https://img.shields.io/badge/API-15%2B-orange.svg)](https://android-arsenal.com/api?level=15)
 [![License](https://img.shields.io/badge/license-Apache%202-red.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-![Android CI](https://github.com/lndmflngs/roboto-span-view/workflows/Android%20CI/badge.svg?branch=master)
+![Android CI](https://github.com/lndmflngs/roboto-span-view/workflows/Android%20CI/badge.svg)
 [![](https://jitpack.io/v/lndmflngs/roboto-span-view.svg)](https://jitpack.io/#lndmflngs/roboto-span-view)
 
 MultiSpanView with Roboto fonts
@@ -62,5 +62,5 @@ limitations under the License.
 ```
 [1]: https://github.com/lndmflngs/roboto-span-view/releases/latest
 [3]: https://github.com/lndmflngs/roboto-span-view#usage
-[8]: https://github.com/lndmflngs/roboto-span-view/blob/master/app/src/main/java/com/lockwood/multispandemo/span/AlignTopSuperscriptSpan.kt
-[9]: https://github.com/lndmflngs/roboto-span-view/blob/master/app/src/main/java/com/lockwood/multispandemo/view/SuperscriptTextView.kt
+[8]: https://github.com/lndmflngs/roboto-span-view/blob/master/app/src/main/java/com/lockwood/robotospandemo/span/AlignTopSuperscriptSpan.kt
+[9]: https://github.com/lndmflngs/roboto-span-view/blob/master/app/src/main/java/com/lockwood/robotospandemo/view/SuperscriptTextView.kt
