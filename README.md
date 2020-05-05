@@ -4,7 +4,7 @@
 ![Android CI](https://github.com/lndmflngs/roboto-span-view/workflows/Android%20CI/badge.svg)
 [![](https://jitpack.io/v/lndmflngs/roboto-span-view.svg)](https://jitpack.io/#lndmflngs/roboto-span-view)
 
-MultiSpanView with Roboto fonts
+Multi span TextView with Roboto fonts
 
 <img src="https://github.com/lndmflngs/roboto-span-view/blob/master/art/1.png?raw=true" width="45%" />
 
