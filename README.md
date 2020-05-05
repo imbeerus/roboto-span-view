@@ -43,6 +43,11 @@ You can make your own spans like a [AlignTopSuperscriptSpan][8] and apply them i
 
 For more information see `app` directory
 
+## See also 
+* [**compound-text-view**](https://github.com/lndmflngs/compound-text-view) - Change gravity of Image Drawable in TextView 🌌
+* [**multispan-view**](https://github.com/lndmflngs/multispan-view) - TextView with power of Spans 💪
+* [**font-span-view**](https://github.com/lndmflngs/fibt-span-view) - Multi span TextView with custom fonts
+
 ## Issue Tracking
 Found a bug? Have an idea for an improvement? Feel free to [add an issue](../../issues)
 
