@@ -1,12 +1,12 @@
-# multispan-view
+# roboto-span-view
 [![API](https://img.shields.io/badge/API-15%2B-orange.svg)](https://android-arsenal.com/api?level=15)
 [![License](https://img.shields.io/badge/license-Apache%202-red.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-![Android CI](https://github.com/lndmflngs/multispan-view/workflows/Android%20CI/badge.svg?branch=master)
-[![](https://jitpack.io/v/lndmflngs/multispan-view.svg)](https://jitpack.io/#lndmflngs/multispan-view)
+![Android CI](https://github.com/lndmflngs/roboto-span-view/workflows/Android%20CI/badge.svg?branch=master)
+[![](https://jitpack.io/v/lndmflngs/roboto-span-view.svg)](https://jitpack.io/#lndmflngs/roboto-span-view)
 
 MultiSpanView with Roboto fonts
 
-<img src="https://github.com/lndmflngs/multispan-view/blob/master/art/1.png?raw=true" width="45%" />
+<img src="https://github.com/lndmflngs/roboto-span-view/blob/master/art/1.png?raw=true" width="45%" />
 
 ## Download
 Download the [latest release][1] or grab via Gradle:
@@ -21,7 +21,7 @@ allprojects {
 ```
 ```
 dependencies {
-        implementation 'com.github.lndmflngs:multispan-view:1.0.0'
+        implementation 'com.github.lndmflngs:roboto-span-view:1.0.0'
 }
 ```
 ## Usage
@@ -60,12 +60,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
-[1]: https://github.com/lndmflngs/multispan-view/releases/latest
-[2]: https://github.com/lndmflngs/compound-text-view
-[3]: https://github.com/lndmflngs/multispan-view#usage
-[4]: https://github.com/lndmflngs/multispan-view/blob/master/app/src/main/java/com/lockwood/multispandemo/BindingExample.kt
-[5]: https://github.com/lndmflngs/compound-text-view/blob/master/app/src/main/java/com/lockwood/compoundemo/fragment/RecyclerFragment.kt#L102-L107
-[6]: https://github.com/lndmflngs/compound-text-view/blob/master/app/src/main/java/com/lockwood/compoundemo/fragment/RecyclerFragment.kt#L110-L114
-[7]: https://github.com/lndmflngs/compound-text-view/blob/master/app/src/main/java/com/lockwood/compoundemo/fragment/RecyclerFragment.kt#L117-L124
-[8]: https://github.com/lndmflngs/multispan-view/blob/master/app/src/main/java/com/lockwood/multispandemo/span/AlignTopSuperscriptSpan.kt
-[9]: https://github.com/lndmflngs/multispan-view/blob/master/app/src/main/java/com/lockwood/multispandemo/view/SuperscriptTextView.kt
+[1]: https://github.com/lndmflngs/roboto-span-view/releases/latest
+[3]: https://github.com/lndmflngs/roboto-span-view#usage
+[8]: https://github.com/lndmflngs/roboto-span-view/blob/master/app/src/main/java/com/lockwood/multispandemo/span/AlignTopSuperscriptSpan.kt
+[9]: https://github.com/lndmflngs/roboto-span-view/blob/master/app/src/main/java/com/lockwood/multispandemo/view/SuperscriptTextView.kt
