@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="roboto_font_families">
+        <item>sans-serif-thin</item>
+        <item>sans-serif-light</item>
+        <item>sans-serif</item>
+        <item>sans-serif-medium</item>
+        <item>sans-serif</item>
+        <item>sans-serif-black</item>
+    </string-array>
+
+    <integer-array name="roboto_styles">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+    </integer-array>
+
+</resources>
