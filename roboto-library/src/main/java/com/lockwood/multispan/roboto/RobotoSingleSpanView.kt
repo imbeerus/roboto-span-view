@@ -18,9 +18,9 @@ package com.lockwood.multispan.roboto
 
 import android.content.Context
 import android.util.AttributeSet
-import com.lockwood.multispan.extensions.fetchAttrs
 import com.lockwood.multispan.extensions.fetchSingleSpanAttrs
 import com.lockwood.multispan.roboto.base.RobotoMultiSpanView
+import com.lockwood.multispan.roboto.extensions.fetchAttrs
 import com.lockwood.multispan.roboto.spannable.RobotoSingleSpan
 import com.lockwood.multispan.spannable.SingleSpan.Companion.ITEM_FIRST
 import com.lockwood.multispan.spannable.SingleSpan.Companion.ONE_ITEM_COUNT
@@ -44,7 +44,7 @@ open class RobotoSingleSpanView @JvmOverloads constructor(
     init {
         fetchSingleSpanAttrs(context, attrs, defaultTextSize, defaultTextColor)
 
-        fetchAttrs(R.styleable.RobotoSingleSpanView, context, attrs) {
+        fetchAttrs(context, R.styleable.RobotoSingleSpanView, attrs) {
             firstFont = getRobotoFontFamily(R.styleable.RobotoSingleSpanView_firstRobotoFont)
             firstStyle = getRobotoFontStyle(R.styleable.RobotoSingleSpanView_firstRobotoFont)
         }

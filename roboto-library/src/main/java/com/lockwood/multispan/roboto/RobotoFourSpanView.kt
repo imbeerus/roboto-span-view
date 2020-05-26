@@ -18,8 +18,8 @@ package com.lockwood.multispan.roboto
 
 import android.content.Context
 import android.util.AttributeSet
-import com.lockwood.multispan.extensions.fetchAttrs
 import com.lockwood.multispan.extensions.fetchFourSpanAttrs
+import com.lockwood.multispan.roboto.extensions.fetchAttrs
 import com.lockwood.multispan.roboto.spannable.RobotoFourSpan
 import com.lockwood.multispan.spannable.FourSpan.Companion.FOUR_ITEMS_COUNT
 import com.lockwood.multispan.spannable.FourSpan.Companion.ITEM_FOURTH
@@ -43,7 +43,7 @@ open class RobotoFourSpanView @JvmOverloads constructor(
     init {
         fetchFourSpanAttrs(context, attrs, defaultTextSize, defaultTextColor)
 
-        fetchAttrs(R.styleable.RobotoFourSpanView, context, attrs) {
+        fetchAttrs(context, R.styleable.RobotoFourSpanView, attrs) {
             fourthFont = getRobotoFontFamily(R.styleable.RobotoFourSpanView_fourthRobotoFont)
             fourthStyle = getRobotoFontStyle(R.styleable.RobotoFourSpanView_fourthRobotoFont)
         }

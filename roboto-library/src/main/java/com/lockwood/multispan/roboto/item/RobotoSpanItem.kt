@@ -16,10 +16,10 @@
 
 package com.lockwood.multispan.roboto.item
 
-import android.content.res.ColorStateList
 import android.text.style.CharacterStyle
 import androidx.annotation.ColorInt
 import com.lockwood.multispan.item.SpanItem
+import com.lockwood.multispan.roboto.extensions.colorToStateList
 import com.lockwood.multispan.roboto.span.RobotoSpan
 import com.lockwood.multispan.roboto.span.RobotoSpan.Companion.DEF_ROBOTO_FONT_FAMILY
 import com.lockwood.multispan.roboto.span.RobotoSpan.Companion.DEF_TEXT_STYLE
@@ -34,11 +34,15 @@ class RobotoSpanItem(
 ) : SpanItem {
 
     override fun buildSpan(position: Int): CharacterStyle {
-        return RobotoSpan(fontFamily, style, textSize, textColor.toStateList())
+        val colorStateList = colorToStateList(textColor)
+
+        return RobotoSpan(
+            fontFamily = fontFamily,
+            style = style,
+            size = textSize,
+            color = colorStateList
+        )
     }
 
-    private fun Int.toStateList(): ColorStateList {
-        return ColorStateList.valueOf(this)
-    }
 
 }
